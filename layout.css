@@ -1,0 +1,44 @@
+
+  
+  .outer {
+    display: flex;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  margin: 5px; 
+  }
+.row {
+    display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid #131718;
+  width: 400px;
+  height: 500px;
+  }
+  
+  
+  .header{
+      display: flex;
+      flex-flow: row;
+      text-align: left;
+      padding-top: 40px;
+     
+      margin:auto;
+      width:100%;
+      height: 20%;
+      margin: 0;
+  }
+  h1{
+      padding-left: 11vw;
+  }
+  .project1{
+      padding: 10px;
+      width: 380px;
+      height: 300px;
+  }
+  .click-here{
+      border: 1px solid green;
+  }
