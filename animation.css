@@ -1,0 +1,23 @@
+.parent{
+    width:500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+.child{
+    background-color: rebeccapurple;
+    height: 50%;
+    width: 50%;
+    transition: transform 1s ease-in forwards;
+}
+.parent:hover .child{
+    transform: translateX(100%);
+    animation: left-to-right 1s ease-in;
+}
+@keyframes left-to-right{
+    0%{
+        transform: translateX(0%);
+    }100%{
+    transform: translateX(100%);
+}
+
+}
