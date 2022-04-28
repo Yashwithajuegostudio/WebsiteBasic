@@ -21,3 +21,12 @@
 }
 
 }
+.element{
+    height: 250px;
+    width: 250px;
+    background-color: greenyellow;
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
